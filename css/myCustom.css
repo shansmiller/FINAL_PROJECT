@@ -1,0 +1,12 @@
+.row{
+	border:solid 1px red;
+}
+
+.col-md-1,.col-md-2, .col-md-5, .col-md-6, .col-md-4, .col-md-8{
+	border: solid 1px black;
+	height:100px;
+}
+
+.myHeight{
+	height:150px;
+}
