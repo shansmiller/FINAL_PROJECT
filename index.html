@@ -1,38 +1,76 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Layout</title>
+	<title>Home</title>
 	<link rel="stylesheet" href="css/normalize.css"/>
 	<link rel="stylesheet" href="css/bootstrap.css"/>
 	<link rel="stylesheet" href="css/custom.css"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style> 
+	html, body { 
+	  background: url(images/background1.png) no-repeat center center fixed; */
+	  -webkit-background-size: cover;*/
+	  -moz-background-size: cover;*/
+	  -o-background-size: cover;*/
+	  background-size: cover;*/
+	}
+	li {
+	      	display: inline-block;
+	      }
+</style>
+
 </head>
 <body>
 
 	<div class="container-fluid">
 		<div class="row">
-			<div class="col-md-12" id="banner"><h1> Welcome<small>cats!</small></h1></div>
+			<div class="col-md-12" id="banner">
+				<div>
+					<img src="images/grandferry_logo.png">
+				</div>
+			</div>
 		</div>
-		<div class="row">
-			<div class="col-md-12" id="nav"> Nav </div>
+
+
+		 <div class="row nopadding">
+			<div class="col-md-12 nopadding" id="nav">
+				<nav>
+  					<ul class="navbar">
+		  				<li> <a href="index.html">Home</a> </li>
+		    			<li> <a href="brewery.html">The Brewery</a> </li>
+						<li> <a href="beers.html">Beers</a> </li>
+						<li> <a href="visit.html">Visit</a> </li>
+						<li> <a href="merch.html">Merch</a> </li>
+					</ul>
+				</nav>
+			</div>
 		</div>
 		<div class="row" id="mainArea">
-			<div class="col-md-7" id="main"> Main </div>
-			<div class="col-md-5" id-"sidebar"> Side </div>
+			<div class="col-md-10" id="main"> 
+
+				<div class="homeImages">
+					<div id="homeBeers">
+						<img src="images/home_page_image.png">
+					</div>
+
+				</div>
+			</div>
+			<div class="col-md-2" id-"sidebar"> Side </div>
+
 		</div>
-		<div class="row"><div>
-			<div class="col-md-12" id="footer"> Footer </div>
-		</div>
-	<div>
 
+		
 
+			<footer class="row bottlesBG">
+				<div class="col-md-12" id="footer">
+					Copyright &copy; 2015. All Rights Reserved.
+				</div>
+			</footer>
 
-
-
-
-
-
-
-
+			<!-- <div id="bottles">
+				<img src="images/bottle_line.png">
+			</div>  -->
+	</div>
 
 	<script type="text/javascript" src="js/jquery.js"></script>
 	<script type="text/javascript" src="js/bootstrap.js"></script>
