@@ -40,8 +40,6 @@ body{
 
 }
 
-
-
 #lightBoxContentBox{
 	/*width:50%;*/
 	/*height:50%;*/
@@ -93,6 +91,77 @@ body{
 
 }
 
+.titleText{
+	font-family: CornerStoreJF;
+	font-size: 90px;
+	color: white;
+	margin:0px;
+	padding-top: 5px;
+	padding-left: 70px;
+	float:left;
+
+}
+
+
+
+.aboutText {
+	font-family: GothamLight;
+	font-size: 20px;
+	padding: 20px;
+	color: black;
+}
+
+	
+.aboutBox{
+	background-color: white;
+	height:720px;
+	width:750px;
+	margin-left: 120px;
+	margin-top: 15px;
+	border-radius: 30px;
+}
+
+.pintText{
+	font-family: CornerStoreJF;
+	font-size: 35px;
+	color: white;
+	padding-top: 90px;
+	padding-left:130px;
+	margin-top: 30px;
+	margin-bottom: 0px;
+	text-align: center;
+	line-height: 1.15;
+	float: right;
+}
+
+.pints{
+	margin-top: 245px;
+}
+.pints img{
+	width: 45%;
+	margin-top:-240px
+}
+
+.beerCircle{
+	background-color: #329406;
+	height:350px;
+	width:350px;
+	border-radius:175px;
+	margin: auto;
+	margin-top: 75px;
+	cursor:pointer;
+}
+
+
+/*#bcA{
+	background-color: #329406;
+	height:350px;
+	width:350px;
+	border-radius:175px;
+	margin: auto;
+	margin-top: 75px;
+	cursor:pointer;
+}*/
 
 #banner{
 	height:300px;
@@ -114,7 +183,12 @@ body{
 	min-height:50vh;
 }
 
+#title{
+	height:200px;
+}
+
 #sidebar{
+	float:right;
 
 }
 
