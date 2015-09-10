@@ -99,7 +99,7 @@ nav ul a:hover{
 	width:65%;
 	height:auto;
 	display: block;
-	
+	margin-left: 285px;
 	padding-top: 50px;
 	padding-bottom:1px;
 
@@ -119,9 +119,14 @@ nav ul a:hover{
 
 }
 
+#socialIcons{
+	margin-top: 30px;
+	
+}
+
 footer {
 	text-align: center;
-	padding-top:50px;
+	padding-top:150px;
 	font-size: 8pt;
 	font-family: GothamMed;
 	color:white;
