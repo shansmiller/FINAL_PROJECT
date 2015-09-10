@@ -61,8 +61,8 @@ $(document).ready(function(){
 	 	 });
 
 
-	  	$(".beerCircle").hover(function(){
-	  		$(this).css("background-color", "black");
+	  	$("#bCa").hover(function(){
+	  		$("#bCa").css("background-color", "black");
 	 		$(this).css("background-color","#329406");
 	 	});
 
