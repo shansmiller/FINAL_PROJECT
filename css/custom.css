@@ -18,6 +18,8 @@ body{
 	margin: 0px;
 }
 
+
+
 .clearfix{
 	clear: both;
 }
@@ -143,7 +145,7 @@ body{
 
 .pints{
 	margin-top: 245px;
-	margin-left: 50px;
+	margin-left: 180px;
 }
 .pints img{
 	width: 45%;
@@ -161,6 +163,45 @@ body{
 }
 
 #bCa{
+	background-color: #329406;
+	height:350px;
+	width:350px;
+	border-radius:175px;
+	margin: auto;
+	margin-top: 75px;
+	cursor:pointer;
+}
+#bCb{
+	background-color: #329406;
+	height:350px;
+	width:350px;
+	border-radius:175px;
+	margin: auto;
+	margin-top: 75px;
+	cursor:pointer;
+}
+
+#bCc{
+	background-color: #329406;
+	height:350px;
+	width:350px;
+	border-radius:175px;
+	margin: auto;
+	margin-top: 75px;
+	cursor:pointer;
+}
+
+#bCd{
+	background-color: #329406;
+	height:350px;
+	width:350px;
+	border-radius:175px;
+	margin: auto;
+	margin-top: 75px;
+	cursor:pointer;
+}
+
+#bCe{
 	background-color: #329406;
 	height:350px;
 	width:350px;

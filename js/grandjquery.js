@@ -60,11 +60,56 @@ $(document).ready(function(){
 
 	 	 });
 
-
 	  	$("#bCa").hover(function(){
-	  		$("#bCa").css("background-color", "black");
-	 		$(this).css("background-color","#329406");
+	  	 	$(this).css("background-color", "black");
+	  	  });
+	 		
+	 	$("#bCa").mouseleave(function(){
+	  	
+	 		 $(this).css("background-color","#329406");
 	 	});
+
+
+	  	$("#bCb").hover(function(){
+	  	 	$(this).css("background-color", "black");
+	  	  });
+	 		
+	 	$("#bCb").mouseleave(function(){
+	  	
+	 		 $(this).css("background-color","#329406");
+	 	});
+
+
+	  	$("#bCc").hover(function(){
+	  	 	$(this).css("background-color", "black");
+	  	  });
+	 		
+	 	$("#bCc").mouseleave(function(){
+	  	
+	 		 $(this).css("background-color","#329406");
+	 	});
+
+
+	  	$("#bCd").hover(function(){
+	  	 	$(this).css("background-color", "black");
+	  	  });
+	 		
+	 	$("#bCd").mouseleave(function(){
+	  	
+	 		 $(this).css("background-color","#329406");
+	 	});
+
+
+	  	$("#bCe").hover(function(){
+	  	 	$(this).css("background-color", "black");
+	  	  });
+	 		
+	 	$("#bCe").mouseleave(function(){
+	  	
+	 		 $(this).css("background-color","#329406");
+	 	});
+
+
 
 
 }); //this should contain everything
