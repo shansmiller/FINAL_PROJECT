@@ -79,8 +79,10 @@ body{
 	margin: 20px;
 	font-size: 20px;
 	font-family: CornerStoreJF;
+	outline:none;
 
 }
+	margin: auto;
 
 #noBtn{
 	cursor: pointer;
@@ -93,6 +95,7 @@ body{
 	margin: 20px;
 	font-size: 20px;
 	font-family: CornerStoreJF;
+	outline:none;
 
 
 }
@@ -176,7 +179,6 @@ body{
 	height:350px;
 	width:350px;
 	border-radius:175px;
-	margin: auto;
 	margin-top: 75px;
 	cursor:pointer;
 }
@@ -273,6 +275,7 @@ body{
 	width:60%;
 	margin-top:20px;
 	text-align:center;
+	margin-left: 240px;
 }
 
 #price{
