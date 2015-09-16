@@ -80,9 +80,10 @@ body{
 	font-size: 20px;
 	font-family: CornerStoreJF;
 	outline:none;
+	margin: auto;
 
 }
-	margin: auto;
+	
 
 #noBtn{
 	cursor: pointer;
@@ -179,6 +180,7 @@ body{
 	height:350px;
 	width:350px;
 	border-radius:175px;
+	margin: auto;
 	margin-top: 75px;
 	cursor:pointer;
 }
